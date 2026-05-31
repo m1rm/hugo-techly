@@ -4,8 +4,7 @@
       "staticDistDir": "./public",
       "url": [
         "http://localhost/",
-        "http://localhost/about/",
-        "http://localhost/hugo-getting-started/"
+        "http://localhost/about/"
       ],
       "numberOfRuns": 1,
       "settings": {
