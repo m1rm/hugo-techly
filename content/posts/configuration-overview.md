@@ -22,7 +22,7 @@ Pin the theme as a Hugo module (v2):
 [module]
   [[module.imports]]
     path = 'github.com/m1rm/techly/v2'
-    version = 'v2.0.1'
+    version = 'v2.4.0'
 ```
 
 Run `hugo mod get` after changing the version. See [Getting Started with Techly]({{< relref "getting-started-with-techly" >}}) for a minimal first site.
