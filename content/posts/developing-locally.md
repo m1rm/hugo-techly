@@ -32,7 +32,7 @@ The site still declares the module import in `hugo.toml` the usual way:
 [module]
   [[module.imports]]
     path = 'github.com/m1rm/techly/v2'
-    version = 'v2.4.0'
+    version = 'v2.5.1'
 ```
 
 The local override lives in `go.mod`:
@@ -44,7 +44,7 @@ go 1.26.3
 
 replace github.com/m1rm/techly/v2 => ../techly
 
-require github.com/m1rm/techly/v2 v2.4.0
+require github.com/m1rm/techly/v2 v2.5.1
 ```
 
 `replace` tells Go (and Hugo's module loader) to use `../techly` instead of downloading the module from the proxy. Edit files in the theme repo, save, refresh the browser — no publish step required.
@@ -124,14 +124,14 @@ workspace/
 └── techly/
 ```
 
-The same `replace github.com/m1rm/techly/v2 => ../techly` in `go.mod` resolves correctly in CI when both repos are present. Production builds without `replace` download **v2.4.0** from the module proxy.
+The same `replace github.com/m1rm/techly/v2 => ../techly` in `go.mod` resolves correctly in CI when both repos are present. Production builds without `replace` download **v2.5.1** from the module proxy.
 
 ## Using a published theme again
 
 To build against a tagged release from GitHub instead of the local checkout:
 
 1. Remove or comment out the `replace` line in `go.mod`
-2. Run `hugo mod get github.com/m1rm/techly/v2@v2.4.0` (or the version you need)
+2. Run `hugo mod get github.com/m1rm/techly/v2@v2.5.1` (or the version you need)
 3. Run `hugo mod clean --all` and rebuild
 
 ## Summary

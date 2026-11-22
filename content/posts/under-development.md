@@ -12,13 +12,13 @@ pinnedIndicator = true
 
 If you landed here looking for a polished, finished Hugo theme — welcome anyway, but fair warning first: **Techly is under active development**.
 
-**Techly 2.0** is out ([v2.0.1](https://github.com/m1rm/techly/releases/tag/v2.0.1) is the first installable v2 module release). This site currently runs [v2.4.0](https://github.com/m1rm/techly/releases/tag/v2.4.0). Layouts and configuration are more stable than in early v0.x days, but the project is still evolving.
+**Techly 2.0** is out ([v2.0.1](https://github.com/m1rm/techly/releases/tag/v2.0.1) is the first installable v2 module release). This site currently runs [v2.5.1](https://github.com/m1rm/techly/releases/tag/v2.5.1). Layouts and configuration are more stable than in early v0.x days, but the project is still evolving.
 
 This site is the live example for the theme. What you see today is real and usable, but it is not a frozen product. Layouts, configuration options, and styling can still change between releases.
 
 ## What that means for you
 
-**Pin a version.** Add `version = 'v2.4.0'` (or newer) under your module import in `hugo.toml` and run `hugo mod get` when you want predictable builds.
+**Pin a version.** Add `version = 'v2.5.1'` (or newer) under your module import in `hugo.toml` and run `hugo mod get` when you want predictable builds.
 
 **This site follows the theme.** [hugo-techly](https://github.com/m1rm/hugo-techly) exists to demonstrate Techly on GitHub Pages. When the theme updates, this example site updates with it — consider it a preview, not a promise of stability.
 
