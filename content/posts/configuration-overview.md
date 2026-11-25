@@ -22,7 +22,7 @@ Pin the theme as a Hugo module (v2):
 [module]
   [[module.imports]]
     path = 'github.com/m1rm/techly/v2'
-    version = 'v2.5.1'
+    version = 'v2.6.0'
 ```
 
 Run `hugo mod get` after changing the version. See [Getting Started with Techly]({{< relref "getting-started-with-techly" >}}) for a minimal first site.
@@ -38,6 +38,9 @@ These blocks are included in the theme's `hugo.toml` for documentation, but **Hu
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
+
+[markup.highlight]
+  noClasses = false
 ```
 
 | Setting | Why it matters |
@@ -45,6 +48,7 @@ These blocks are included in the theme's `hugo.toml` for documentation, but **Hu
 | `series` taxonomy | Series notices, navigation, and `/series/` archives |
 | `home` JSON output | Client-side search index |
 | `tag` taxonomy | Tag pages and related-content scoring |
+| `markup.highlight.noClasses = false` | Code block colors for light and dark mode. Hugo never takes this from the theme; without it, plain text in code blocks can be unreadable |
 
 If you customize `[taxonomies]`, list every taxonomy you still need — do not drop `series` or `tags` by accident.
 
