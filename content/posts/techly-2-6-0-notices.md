@@ -133,7 +133,7 @@ To change only one mode, set just that key. The other one keeps the theme's defa
 ```
 
 {{< notice caution >}}
-Check the contrast of your own colors. The title text uses the notice color on the box background, which is `#f6f8fa` in light mode and `#161b22` in dark mode. Aim for at least 4.5:1, for example with the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/).
+Check the contrast of your own colors. The title text uses the notice color on the box background, which is `#f6f8fa` in light mode and `#161b22` in dark mode. Aim for a contrast ratio of at least 4.5:1.
 {{< /notice >}}
 
 ### Icons
