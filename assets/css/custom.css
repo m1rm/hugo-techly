@@ -1,0 +1,12 @@
+/* github-icon shortcode */
+.github-icon {
+  display: inline-flex;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+}
+
+.github-icon svg {
+  width: 100%;
+  height: 100%;
+}
