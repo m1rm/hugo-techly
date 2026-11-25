@@ -1,0 +1,4 @@
+{{- /* Inline GitHub icon from assets/icons/brand-github.svg; inherits the text color. */ -}}
+{{- with resources.Get "icons/brand-github.svg" -}}
+<span class="github-icon" aria-hidden="true">{{ .Content | safeHTML }}</span>
+{{- end -}}
