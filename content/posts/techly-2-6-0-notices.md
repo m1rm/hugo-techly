@@ -8,6 +8,8 @@ tags = ['feature']
 series = ['Using Techly']
 toc = true
 index = true
+pinned = true
+pinnedIndicator = true
 +++
 
 [Techly 2.6.0](https://github.com/m1rm/techly/releases/tag/v2.6.0) adds notice boxes: short, highlighted passages for background information, tips and warnings. They look like the theme's blockquotes, with a colored border, an icon and a title.

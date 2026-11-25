@@ -7,7 +7,6 @@ description = 'Techly is a work in progress. This showcase site tracks the theme
 tags = ['general']
 toc = true
 pinned = true
-pinnedIndicator = true
 +++
 
 If you landed here looking for a polished, finished Hugo theme — welcome anyway, but fair warning first: **Techly is under active development**.
