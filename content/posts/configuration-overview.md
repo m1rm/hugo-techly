@@ -83,6 +83,7 @@ Table of contents on posts and pages includes headings from level 2 through 3. G
 | `related.moreLink` | `"best"` | Tag button strategy |
 | `related.moreLabel` | `"More in %s"` | Tag button text |
 | `indexHome` | `true` | Index the home page and include it in `sitemap.xml` |
+| `notices.<type>` | `info`, `tip`, `warning`, `caution` | Title, icon and color of each [notice type]({{< relref "techly-2-6-0-notices" >}}) |
 
 No defaults are set for `banner`, `description`, `author`, `footer.tagline`, `footer.copyright`, `footer.since`, `newsletter`, or `searchPagePath` — you supply those when needed.
 

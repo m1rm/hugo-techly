@@ -45,6 +45,13 @@ title = 'Hugo Theme Techly'
     tagline = 'Techly — a simple Hugo theme for tech blogs.'
     copyright = 'Miriam Müller'
 
+  # A custom notice type on top of Techly's info, tip, warning and caution.
+  # Used in the post "Techly 2.6.0: Notices".
+  [params.notices.keep-in-mind]
+    title = 'Keep in mind'
+    icon = 'bookmark'
+    color = { light = '#8250df', dark = '#ab7df8' }
+
   [params.newsletter]
     title = 'Stay up to date'
     text = 'Get notified when new versions are published.'

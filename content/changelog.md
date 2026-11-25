@@ -11,6 +11,8 @@ All notable changes to Techly, newest first. Each version links to its GitHub re
 
 ## [2.6.0](https://github.com/m1rm/techly/releases/tag/v2.6.0) – 2026-11-25
 
+Notice boxes. See [Techly 2.6.0: Notices]({{< relref "posts/techly-2-6-0-notices" >}}).
+
 ### Added
 
 - `notice` shortcode for info, tip, warning and caution boxes, styled like blockquotes with a colored border, icon and title. Colors meet WCAG AA in light and dark mode.
